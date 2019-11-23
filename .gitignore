@@ -46,10 +46,12 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
+.idea/workspace.xml
 *.cover
 *.py,cover
 .hypothesis/
 .pytest_cache/
+
 
 # Translations
 *.mo
@@ -109,6 +111,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+generate_rsa_key.txt/
+
 
 # Spyder project settings
 .spyderproject

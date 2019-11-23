@@ -1,0 +1,17 @@
+
+
+#Checking key is generated or not in your repository
+ls ~/.ssh
+
+# creating/ generating key in your repository
+ssh-keygen -t rsa -b 4096 -C "your email address"
+
+#Checking key is generated or not ..
+ls ~/.ssh
+
+
+#.....
+id_rsa  id_rsa.pub
+
+# Checking your rsa id command
+cat ~/.ssh/id_rsa.pub
